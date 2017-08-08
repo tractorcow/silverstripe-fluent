@@ -86,6 +86,8 @@ window.jQuery.entwine('ss', ($) => {
         $('.cms-fluent-selector-locales', selector).append(item);
       });
 
+      console.log(config);
+
       // Display selected locale
       $('.text', selector).text(config.locales[config.locale]);
 

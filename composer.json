@@ -30,6 +30,7 @@
         "issues": "http://github.com/tractorcow-farm/silverstripe-fluent/issues"
     },
     "require": {
+        "php": "^7.1",
         "silverstripe/vendor-plugin": "^1",
         "silverstripe/framework": "^4",
         "silverstripe/cms": "^4",
@@ -42,7 +43,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "4.5.x-dev"
+            "dev-master": "5.x-dev"
         },
         "expose": [
             "client/dist"
